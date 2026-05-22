@@ -1,0 +1,31 @@
+
+h1{
+  text-align:center;
+}
+
+
+
+body{
+  color:white;
+  background-color:black;
+  margin: 50px;
+}
+
+
+
+
+.box{
+  background-color: blue;
+  float: center;
+  width: 80%;
+  padding: 10%;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
