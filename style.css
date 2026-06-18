@@ -1,18 +1,36 @@
 
+@font-face {
+font-family: "JetBrainsMono Nerd Font Mono";
+src: fonts/webfonts/JetBrainsMono-Medium.woff2
+}
+
+
 h1{
   text-align:center;
 }
 
 
-
 body{
+  font-family: "Adobe Times";
+  text-align: center;
   color:white;
   background-color:black;
   margin: 50px;
+  font-size: 1.5vw;
 }
 
 
+#centerer {
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  align-self: center;
+}
 
+.games {
+  border: 5px solid white;
+  width: 55vw;
+}
 
 .box{
   background-color: blue;
@@ -25,6 +43,21 @@ body{
   content: "";
   clear: both;
   display: table;
+}
+
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+
+#links{
+font-family: "Adobe Times";
+font-size: 2.5vw;
+
+
+
 }
 
 
